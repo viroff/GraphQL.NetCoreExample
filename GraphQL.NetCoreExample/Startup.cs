@@ -17,6 +17,7 @@ namespace GraphQL.NetCoreExample
                 c.RegisterServiceProvider(sp);
 
                 c.RegisterQueryType<QueryType>();
+                c.RegisterType<CatType>();
             }));
         }
 
